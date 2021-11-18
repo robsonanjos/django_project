@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="../style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&family=Style+Script&display=swap" rel="stylesheet">
+		<link href="../fonts/fontawesome-free-5.15.3-web/css/all.css" rel="stylesheet">
+		<script src="https://kit.fontawesome.com/c529ef0d01.js" crossorigin="anonymous"></script>
+		<link rel="icon" href="../midias/images/favicon.png" sizes="16x32" type="images.png" />
+		<script type="text/javascript" src="../functions.js"></script>
+		<title>Contato - Season Geams</title>
+	</head>
+	
+	<body>
+		<div class="barra-nav nav-transparent"><iframe id="menu-principal" src="../header.html" frameborder="0" seamless></iframe></div>
+		<div id="pagina-contato">
+			<!-- Breadcrumbs -->
+			<div class="slideshow-container breadcrumbs" style="background:url(../midias/images/banner-estacoes-sombra.png);height:350px;"><center>
+				<h1 class="tit-geral">Contato</h1>
+				<p class="txt-geral">Mande sua dúvida/sugestão/feedback para nós!</p>
+			</center></div>
+			
+			<!-- Conteúdo da página -->
+			
+			<!-- Formulário atualizações - Inicio -->	
+			<div class="form-atualizacoes">
+				<form action="/pagina-processa-dados-do-form" method=""><!-- Metodo não adicionado, será relacionado ao back-end -->
+					<div>
+						<label for="name">Receba atualizações sobre o jogo</label>
+					</div>
+					<div>
+						<input type="text" placeholder="Digite seu nome" id="name" />
+					</div>
+					<div>
+						<input type="email" placeholder="Digite seu e-mail" id="mail" />
+					</div>
+					<div class="button">
+						<button type="submit">Enviar</button>
+					</div>
+				</form>
+			</div>
+			<!-- Formulário atualizações - Final -->
+			
+			<!-- Formulário dúvidas/sugestões/feedback - Inicio -->	
+			<div class="form-comentario">
+				<form action="/pagina-processa-dados-do-form" method=""><!-- Metodo não adicionado, será relacionado ao back-end -->
+					<div>
+						<label for="name">Entre em contato com a nossa equipe!</label>
+					</div>
+					<br><br>
+					<div class="metade-campos">
+						<input type="text" placeholder="Digite seu nome" id="name" />
+						<input type="email" placeholder="Digite seu e-mail" id="mail" />
+					</div>
+					<div>
+						<input type="text" placeholder="Digite o assunto da mensagem" id="subject" />
+					</div>
+					<div>
+						<textarea type="textarea" placeholder="Digite a mensagem" id="message" /></textarea>
+					</div>
+					<input type="checkbox" id="aceito" name="aceito" value="true"><label class="aceito" for="aceito">Li e concordo com os <a href="pages/politica-de-privacidade.html" target="_blank">Termos de Política e Privacidade</a> do site.</label>
+					<div class="button">
+						<button type="submit">Enviar</button>
+					</div>
+				</form>
+				<img src="../midias/images/primavera.jpg" style="max-width: 100%;">
+			</div>
+			<!-- Formulário dúvidas/sugestões/feedback - Final -->
+			
+			<!-- Widget que direciona ao manual do usuário e ao FAQ -->
+			<div class="widget-ant-prox-page" style="background-color: #606060;">
+				<div class="anterior">
+					<p class="txt-ant-prox">Tudo o que você precisa saber!</p>
+					<a class="btn-geral" href="../midias/docs/manual_do_jogo___Season_Gems.pdf" target="_blank"><i class="icn-btn-geral fa fa-arrow-circle-left"></i> Manual do usuário</a>
+				</div>
+				<div></div>
+				<div class="proximo">
+					<p class="txt-ant-prox">Tire todas as suas dúvidas sobre o jogo!</p>
+					<a class="btn-geral" href="faq.html">Veja nosso FAQ <i class="icn-btn-geral fa fa-arrow-circle-right"></i></a>
+				</div>
+			</div>
+			
+			<!-- Widget que direciona a página de download do jogo -->
+			<div style="margin: 80px 0;">
+				<h1 class="tit-geral" style="text-align:center;">Faça download da versão Beta do Jogo</h1>
+				<center><a class="btn-geral" href="download.html" style="margin: 35px 0;">Download<i class="icn-btn-geral fa fa-arrow-circle-right"></i></a></center>
+			</div>
+
+	</body>
+	<footer><iframe id="rodape" src="../footer.html" frameborder="0"></iframe></footer>
+</html>
